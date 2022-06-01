@@ -1,6 +1,10 @@
 package com.example.mvi
 
 import app.cash.turbine.test
+import com.example.mvi.ui.MainAction
+import com.example.mvi.ui.MainEvent
+import com.example.mvi.ui.MainState
+import com.example.mvi.ui.MainViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertEquals
